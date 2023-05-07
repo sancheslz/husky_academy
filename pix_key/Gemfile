@@ -7,3 +7,10 @@ ruby "3.1.2"
 gem "rake", "~> 13.0"
 
 gem "rspec", "~> 3.0"
+
+gem 'simplecov', require: false, group: :test
+gem 'rexml'
+gem "rubycritic", require: false
+
+gem "benchmark_driver"
+

@@ -40,7 +40,6 @@ class PixKey
 
   private
   def validate
-    # check = @@key_pattern.map { |k, v| k if @token.match(v) }.compact
     check = @@key_pattern.map { |k, v| k if v =~ @token }.compact
     return if check.empty?
 
